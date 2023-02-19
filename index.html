@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+    <title>pha-Admin</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-maizi.css"/>
+    <link rel="stylesheet" href="css/content-style.css"/>
+    <style type="text/css">
+.round_icon{
+  width: 100px;
+  height: 120px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+        </style>
+</head>
+<body>
+<!-- 导航 -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!--小屏幕导航按钮和logo-->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand" style="color:white"> <b>SYSU-DCS290/292：编译原理&实验课程</b></a>
+        </div>
+        <!--小屏幕导航按钮和logo-->
+        <!--导航-->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;课程首页</a></li>
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;实验相关</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!--导航-->
+    </div>
+</nav>
+<!-- 导航 -->
+<!-- 主体 -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="color: black;font-size: 18px;font-weight: bold;">课程基本信息</div>
+                <div class="panel-body">
+                    <p style="font-size: 18px; font-weight: bold;">- 课程时间与地点</p>
+                    <ul>
+                        <li  style="font-size: 16px;">理论课：</li>
+                        <ul>
+                          <li  style="font-size: 16px;">星期二 19:00-20:40 (1~18周); 星期四 19:00-20:40 (1~9周)</li>
+                          <li  style="font-size: 16px;">教学大楼C202</li>
+                        </ul>
+                        <li  style="font-size: 16px;">实验课：</li>
+                        <ul>
+                          <li  style="font-size: 16px;">星期三 19:00-20:40 (2~18周); <b>星期五 19:00-20:40 (第1周)</b></li>
+                          <li  style="font-size: 16px;">实验中心大楼D402</li>
+                        </ul>
+                    </ul>
+                    <p style="font-size: 18px; font-weight: bold;">- QQ群: 600931574</p>
+                    <p style="font-size: 18px; font-weight: bold;">- 教师</p>
+                    <ul>
+                        <li  style="font-size: 16px;">Instructor • <a href="https://cse.sysu.edu.cn/content/6598" style="color: #09c">赵帅</a> • zhaosh56@mail.sysu.edu.cn</li>
+                    </ul>
+                    <p style="font-size: 18px; font-weight: bold;">- 助教</p>
+                    <ul>
+                        <li  style="font-size: 16px;">TA • <a href="#" style="color: #09c">徐菡志</a> • xuhzh23@mail2.sysu.edu.cn</li>
+                        <li  style="font-size: 16px;">TA • <a href="#" style="color: #09c">高怿旸</a> • gaoyy26@mail2.sysu.edu.cn</li>
+                        <li  style="font-size: 16px;">TA • <a href="#" style="color: #09c">万事兴</a> • wanshx3@mail2.sysu.edu.cn</li>
+                        <li  style="font-size: 16px;">TA • <a href="#" style="color: #09c">刘韩</a> • liuh386@mail2.sysu.edu.cn</li>
+                        <li  style="font-size: 16px;">TA • <a href="#" style="color: #09c">苏若娴</a> • </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading"  style="color: black;font-size: 18px;font-weight: bold;">课程公告</div>
+                <div class="panel-body">
+                    <div class="col-md-12">
+                        <div class="media well" style="height: 60px;">
+                            <div class="media-body">
+                                <h4 class="media-heading"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>   欢迎选择本课程！</h4>
+                            </div>
+                        </div>
+                        <div class="media well" style="height: 60px;">
+                            <div class="media-body">
+                                <h4 class="media-heading"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span > <span style="color:red"><b>请注意本周实验课程的时间为周五晚19:00~20:40</b></span></h4>
+                            </div>
+                        </div>
+                        <div class="media well" style="height: 140px;">
+                          <div class="media-body">
+                              <h4 class="media-heading"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> 
+                                各位同学，现在有一个机器人抓取比赛，详细可参见比赛网址：<a href="https://robomani-challenge.bytedance.com" style="color: #09c">https://robomani-challenge.bytedance.com</a>，大家有兴趣的话可以联系赵帅老师（微信号：zs151795）组队参加，有计算机视觉、机器人控制、路径规划、程序设计或比赛经验等背景优先，欢迎大家踊跃报名！</h4>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel-heading" style="color: black;font-size: 18px;font-weight: bold;">课程安排及作业</div>
+                <div class="panel-body">
+                </div>
+                <div class="panel panel-default">
+                  <div class="table-responsive">
+                    <table class="table table-bordered">
+                      <thead>
+                      <tr>
+                        <th class="w5p">日期</th>
+                        <th class="w10p">课件</th>
+                        <th class="w10p">HW/Project/Note</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                        <td class="center">Week1—2.21</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week1—2.23</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week1—2.24(实验)</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week2—2.28</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week2—3.1(实验)</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week2—3.2</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week3</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week4</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week5</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week6</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week7</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week8</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week9</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week10</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week11</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week12</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week13</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week14</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week15</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week16</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week17</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week18</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week19</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="center">Week20</td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">Overview</a></td>
+                        <td class="center"><a style="color: #09c;" href="#"><img src="./images/PDF_icon.png" height="20">HW1</a>
+                        （ddl:2023/2/28)
+                        </td>
+                      </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="panel-footer">
+                    <div class="row">
+                      <div class="col-md-8 m-pagination" id="paginator">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted center">
+                    <!-- Copyright&nbsp;©&nbsp;2017-2018&nbsp;&nbsp;phachon@163.com&nbsp;&nbsp; -->
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/Chart.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
