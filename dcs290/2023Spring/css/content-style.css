@@ -50,7 +50,7 @@ th {
 }
 
 .table{
-    table-layout:fixed;
+    /* table-layout:fixed; */
 }
 
 .w5p{width:5%;}
